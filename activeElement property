@@ -1,0 +1,24 @@
+<html>
+<body onclick="myfunction()">
+
+
+<input type="text" value="an input field">
+<button>button</button>
+
+<h1 id="this"></h1>
+
+
+<script>
+function myfunction(){
+  var x=document.activeElement.tagName;
+  document.getElementById("this").innerHTML=x;
+}
+</script>
+
+
+</body>
+
+
+
+
+</html>
